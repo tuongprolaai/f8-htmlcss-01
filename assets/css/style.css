@@ -69,6 +69,7 @@ a {
     background-color: #e6f0ff;
     height: calc(100vh - 90px);
     position: relative;
+    justify-content: center;
 }
 
 .navbar {
@@ -110,15 +111,11 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    margin-top: 130px;
-}
-
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5rem;
@@ -126,7 +123,7 @@ a {
     color: #687690;
 }
 
-.hero .title {
+.hero-wrap .title {
     color: #000336;
     font-size: 6.4rem;
     font-weight: 700;
@@ -134,7 +131,7 @@ a {
     margin-top: 8px;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     font-weight: 400;
     font-size: 1.8rem;
